@@ -1,0 +1,56 @@
+/*Style sheet for including background image, properties for tables*/
+
+body
+{
+	background-color: #cccccc;
+	background-image:url("01.jpg");
+}
+
+.boldtable, .boldtable TD
+{
+	font-family:verdena;
+	font-size:12pt;
+	font-weight:bold;
+	color:Crimson
+}
+
+.topcorner{
+   position:absolute;
+   top:0;
+   right:0;
+}
+
+.topcorner1{
+   position:absolute;
+   top:0;
+   left:0;
+}
+
+.left{
+   position:absolute;
+   top:200;
+   left:200;
+}
+
+.right{
+   position:absolute;
+   top:200;
+   right:200;
+}
+
+.red{
+background:#8C1C1C;
+}
+.orange{
+background:orange;
+}
+.green{
+background:green;
+}
+
+.color-box {
+    width: 20px;
+    height: 15px;
+    display: inline-block;
+    position: absolute;
+}
